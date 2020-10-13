@@ -11,29 +11,11 @@ public class StarterClass {
 
         // acc1 & acc2 are Reference variables 
         if(acc1.equals(acc2)){
-            System.out.println(" Same Accounts " + acc1);
+            System.out.println(" Same Accounts " + acc1 + " \n " + acc1.hashCode());
+            
         }else {
             System.out.println(" Different Accounts ");
         
         }
     }
-
 }
-
-
-
-/**
- * 
- *          C - Programming Language 
- * 
- *              Dennis Ritchie 
- * 
- * 
- *          C++ - B.Strostrup 
- * 
- *          OOP - public / private / protected 
- * 
- * 
- *          Java == ++ default/package 
- * 
- */
