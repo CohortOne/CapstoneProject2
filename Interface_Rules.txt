@@ -1,0 +1,7 @@
+Interface can be implemented by a Class
+
+
+all methods in an Interface are abstract i.e. no body / no implementation 
+all variables are public and final
+
+any class that implements the interface should implement the methods or become ABSTRACT 
