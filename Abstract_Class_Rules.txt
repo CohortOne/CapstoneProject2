@@ -1,0 +1,22 @@
+Why Abstract 			== Security Feature [copyright]
+============			== Ensure a particular funcationality is implement by all Children
+
+	1) if you don't want a particular class to be instantiated
+	2) When it doesn't make sense to implement a method 
+	
+	Animal an = new Animal(); // cow, cat, dog......
+	Car c = new Car(); // Nissan, .... 
+
+
+
+Rules about abstract class 
+==========================
+
+A class with Abstract Methods should always be Abstract
+
+A abstract class can never be instantiated 
+
+A abstract class can have 0/more Abstract methods or 0/more non-abstract methods
+
+A child class which extends abstract class should implement
+all abstract methods inherited or should be declared abstract itself
