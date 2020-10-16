@@ -1,0 +1,17 @@
+Ong,Denise,200,O1031
+Liu,Teng,200,L1025
+Lim,Jean,500,L1043
+Koh,Samui,10,K1022
+Foo,Denise,30,F1046
+Wee,William,650,W1052
+Hee,HeLee,2000,H1045
+Tong,Siow,20,T1002
+Koh,Nick,300,K1042
+Soh,Harry,500,S1061
+Ang,Larry,200,A1005
+Lam,Pauline,400,L1045
+Seetoh,Mike,700,S2159
+Yeh,Richard,350,Y8177
+Li,Jerry,3000,L5138
+Kek,Bobby,370,K4125
+Soh,Hannah,320,S2123
