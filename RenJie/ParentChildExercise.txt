@@ -1,0 +1,32 @@
+Account [Parent]
+
+States:
+ownerName:
+accountNo:
+balance:
+minBalance: (1000, 100, 500)
+accountType: (saving, current or family) (use enum)
+
+Behaviour:
+getter/setter for all of the states
+makeTransfer(int amount){
+balance -= amount
+}
+makeDeposit
+makeWithdrawal
+displayTransactions
+________________________________________________
+Account [Child] -> SavingAccount, CurrentAccount, FamilyAccount extends Account
+
+States:
+
+autoBalanceLevel(for CurrentAccount) (to set amount of money per mth)
+noOfOwners (for FamilyAccount)
+noOfInterestTiersAchieved (for SavingAccounts)
+
+Behaviour:
+
+isWithdrawAllowed (for Saving Account)
+mainAccountHolder (for Family Account)
+displayDetailedBreakdownOfSpending (for Current Account)
+	-> maybe this method can override displayTransactions
