@@ -1,0 +1,4 @@
+
+This file is used to text the Buffered IO codes.
+Second Line
+Last Line
